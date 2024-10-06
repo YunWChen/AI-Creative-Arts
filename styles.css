@@ -31,7 +31,7 @@ header {
 .animated-text {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
 .content-container {
@@ -109,7 +109,7 @@ header {
 }
 
 .new-section img {
-    max-width: 66.67%;  /* 将图片缩小为原大小的三分之二 */
+    max-width: 40%;  /* 将图片缩小为原大小的三分之二 */
     height: auto;
     margin-top: 35px;
 }
@@ -168,7 +168,7 @@ header {
 }
 
 .content-right img {
-    max-width: 66.67%;
+    max-width: 40%;
     height: auto;
     margin-top: 20px;  /* 下移图片 */
 }
@@ -179,12 +179,12 @@ header {
     margin-bottom: 25px;
     color: #333;
 }
-.content-right {
+.content-right1 {
     flex: 1;
     text-align: center;
 }
 
-.content-right img {
+.content-right1 img {
     max-width: 100%;  
     height: auto;
     margin-top: 100px;
@@ -204,7 +204,7 @@ header {
 }
 
 .new-section2 img {
-    max-width: 66.67%;  /* 将图片缩小为原大小的三分之二 */
+    max-width: 55%;  /* 将图片缩小为原大小的三分之二 */
     height: auto;
     margin-top: 35px;
 }
@@ -212,7 +212,7 @@ header {
 .image-caption2 {
     position: absolute;
     bottom: -20px;
-    right: 230px;
+    right: 310px;
     background: #f0f0f0(255, 255, 255, 0.5);
     color: #555555;
     padding: 5px;
@@ -225,3 +225,188 @@ header {
     text-align: center;
 }
 
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    text-align: left;
+}
+
+.collapsible-content.active {
+    max-height: 200px; /* 或者根据需要调整大小 */
+    opacity: 1;
+}
+
+.toggle-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+.additional-section {
+    margin: 0;
+    padding: 20px;
+    background: #c9c9c9;
+    text-align: left;
+}
+
+.additional-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.complex-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.complex-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.content-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.content-left h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content-left ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.content-left li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.content-right {
+    flex: 1;
+    text-align: center;
+}
+
+.content-right img {
+    max-width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.simple-section {
+    margin: 0;
+    padding: 20px;
+    background: #f0f0f0;
+    text-align: left;
+}
+
+.simple-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0 0 20px 0;
+}
+
+.bullet-points li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 75%;
+    height: auto;
+}
+
+.detailed-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.detailed-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.single-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.single-bullet li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-weight: bold;  /* 加粗字体 */
+}
+
+.sub-heading {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.multi-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.multi-bullet li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-weight: bold;  /* 加粗字体 */
+}
