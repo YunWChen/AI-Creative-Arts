@@ -408,5 +408,985 @@ header {
 .multi-bullet li {
     margin-bottom: 10px;
     line-height: 1.6;
+    font-weight: normal;  /* 加粗字体 */
+}
+
+.bullet-points p {
+    margin: 10px 0 20px 20px;  /* 缩进和间距 */
+    font-weight: normal;  /* 确保描述段落不是加粗的 */
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: -19px;
+    right: 175px;
+    background: #333(0, 0, 0, 0.6);
+    color: #000000;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.complex-bullet-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 文字和图片之间的间距 */
+}
+
+.text-content {
+    flex: 2;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 75px;
+    margin-left: -100px;
+}
+
+.complex-bullet-section h2,
+.complex-bullet-section h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.complex-bullet-section h2 {
+    font-size: 24px;
+}
+
+.complex-bullet-section h3 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.bullet-points,
+.multi-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li,
+.multi-bullet li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    /* 移除了 font-weight: bold; 使 bullet point 内容不加粗 */
+}
+
+.simple-bullet-section {
+    margin: 0;
+    padding: 20px;
+    background: #f0f0f0;
+    text-align: left;
+}
+
+.bullet-points1 {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points1 li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 25px;
     font-weight: bold;  /* 加粗字体 */
+}
+
+.centered-title-section {
+    margin: 0;
+    padding: 40px 20px;
+    background: #f0f0f0;
+    text-align: center;  /* 居中对齐内容 */
+}
+
+.centered-title {
+    font-size: 50px;
+    color: #333;
+    margin: 0;
+}
+
+.two-bullet-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.two-bullet-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.complex-section-with-image {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.complex-section-with-image h2,
+.complex-section-with-image h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.complex-section-with-image h2 {
+    font-size: 28px;
+}
+
+.complex-section-with-image h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 文字和图片之间的间距 */
+    margin-bottom: 20px;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.image-content11 {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content11 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -200px;
+    margin-left: -150px;  /* 向左移动图片 */
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.centered-title-only-section {
+    margin: 0;
+    padding: 40px 20px;
+    background: #f0f0f0;
+    text-align: center;  /* 使内容居中对齐 */
+}
+
+.centered-title111 {
+    font-size: 32px;  /* 调整字体大小以突出标题 */
+    color: #333;
+    margin: 0;
+    font-style: italic;  /* 设置斜体 */
+}
+
+.split-content-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.split-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 文字和图片之间的间距 */
+    margin-bottom: 20px;
+}
+
+.text-content1 {
+    flex: 1.5;
+    padding-right: 20px;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;  /* 向右移动图片部分 */
+}
+
+.split-content-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.image-left-text-right-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.split-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 图片和文字之间的间距 */
+    margin-bottom: 20px;
+}
+
+.image-content111 {
+    flex: 1.5;
+    text-align: center;
+    margin-right: 20px;  /* 增加图片与文字之间的间距 */
+}
+
+.image-content111 img {
+    max-width: 50%;
+    height: auto;
+    margin-top: -20px;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.image-left-text-right-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.title-bullet-image-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.split-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 文字和图片之间的间距 */
+    margin-bottom: 20px;
+}
+
+.text-content {
+    flex: 1.5;
+    padding-right: 20px;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 80%;  /* 调整图片大小至 80% */
+    height: auto;
+    margin-top: 10px;  /* 向上移动图片 */
+}
+
+.title-bullet-image-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.title-bullet-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.text-content11 {
+    padding-right: 20px;
+    margin-left: 170px;  /* 向右移动文字部分 */
+}
+
+.title-bullet-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.double-title-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.double-title-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.double-title-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.text-image-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.split-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 文字和图片之间的间距 */
+    margin-bottom: 20px;
+}
+
+.text-content {
+    flex: 1.5;
+    padding-right: 20px;
+}
+
+.image-content11111 {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content11111 img {
+    max-width: 60%;  /* 调整图片大小至 80% */
+    height: auto;
+    margin-top: -25px;  /* 向上移动图片 */
+}
+
+.text-image-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.bullet-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.title-image-table-section {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.title-image-table-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.split-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* 图片和文本部分之间的间距 */
+    margin-bottom: 20px;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 90%;  /* 缩小图片以适应布局 */
+    height: auto;
+    margin-top: 10px;  /* 向上移动图片 */
+}
+
+.text-and-table {
+    flex: 2;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-and-table p {
+    margin-top: 50px;
+}
+
+.text-and-table h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.data-table {
+    width: 80%;  /* 放大表格宽度以填充更多空间 */
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 2px solid #000;  /* 设置表格外部黑色边框 */
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #000;  /* 设置单元格内的黑色边框 */
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.data-table td {
+    background-color: #fff;
+}
+
+.toggle-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden-content {
+    display: none;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.hidden-content {
+    display: none; /* 初始状态为隐藏 */
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    flex-direction: row; /* 确保展开后内容水平排列 */
+    align-items: center;
+    gap: 20px; /* 图片和列表之间的间距 */
+}
+
+.hidden-content.active {
+    display: flex; /* 展开时使用 flex 布局 */
+}
+
+.hidden-content ul {
+    list-style-type: disc; /* 使用圆点作为列表项符号 */
+    padding-left: 20px; /* 列表项左缩进 */
+    margin: 0;
+}
+
+.hidden-image {
+    max-width: 50%; /* 缩小图片的宽度 */
+    margin-top: 15px; /* 图片顶部的间距 */
+}
+
+.animated-table {
+    opacity: 0; /* 初始状态隐藏 */
+    transform: translateY(50px); /* 初始位置向下偏移 */
+    transition: all 0.6s ease-in-out; /* 进入动画过渡效果 */
+}
+
+.locked {
+    opacity: 1; /* 显示表格 */
+    transform: translateY(0); /* 重置位置 */
+}
+
+.new-section111 {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+
+.new-section111 h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+.new-section111 img {
+    margin-top: 20px;
+    max-width: 80%;
+    height: auto;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+.new-section111 p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+    text-align:left; 
+    margin-left: 155px;
+}
+
+.locked {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.image-and-text-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0; /* 移除外边距以消除板块之间的间隙 */
+    padding: 20px;
+    background-color: #f9f9f9; /* 可选：设置背景颜色 */
+    border-radius: 10px; /* 可选：添加圆角 */
+}
+
+.new-section111 {
+    margin: 0; /* 移除新板块的外边距 */
+}
+
+.image-container111 img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 200px;
+}
+
+.text-container {
+    margin-left: -450px;
+}
+
+.text-and-image-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* 可选：设置背景颜色 */
+    border-radius: 10px; /* 可选：添加圆角 */
+}
+
+.text-container1 {
+    flex: 1;
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.text-container1 h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-container1 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.image-container1 {
+    flex: 1;
+    max-width: 40%;
+}
+
+.image-container1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* 可选：添加图片圆角 */
+}
+
+.text-and-images-section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* 可选：设置背景颜色 */
+    border-radius: 10px; /* 可选：添加圆角 */
+}
+
+.section-title {
+    font-size: 28px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.content-container1111 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.bullet-point-container1111 {
+    flex: 1;
+    max-width: 50%;
+}
+
+.bullet-point-container1111 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin-top: 75px;
+}
+
+.images-container1111 {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    position: relative; /* 设置相对定位，使得内部的图片可以自由定位 */
+    padding: 10px; /* 给容器一些内边距，防止图片贴到边界 */
+    height: 350px; /* 设置一个合适的高度，确保容器足够容纳两张图片 */
+    overflow: hidden; /* 防止图片溢出容器 */
+}
+
+.top-image {
+    width: 40%; /* 缩小图片 */
+    height: auto;
+    border-radius: 10px; /* 可选：添加圆角 */
+    position: absolute; /* 使用绝对定位来调整位置 */
+    top: 0;
+    left: 10%; /* 确保图片在容器内部 */
+    transform: translateX(-10%); /* 向左偏移但不会超出容器 */
+    z-index: 1; /* 设置层级，使得此图片在另一张上方 */
+}
+
+.bottom-image {
+    width: 30%; /* 缩小图片 */
+    height: auto;
+    border-radius: 10px; /* 可选：添加圆角 */
+    position: absolute; /* 使用绝对定位来调整位置 */
+    bottom: 0; /* 确保第二张图片的底部紧贴容器底部 */
+    left: 35%; /* 向右偏移 */
+    transform: translateX(20%); /* 向右偏移，但不会超出容器 */
+}
+
+.table-section {
+    margin: 40px auto; /* 上下边距为 40px，整体居中 */
+    padding: 20px;
+    background-color: #ffffff; /* 设置背景颜色为白色 */
+    border-radius: 10px; /* 可选：添加圆角 */
+    max-width: 800px; /* 可选：设置最大宽度以控制表格大小 */
+}
+
+.table-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ai-table {
+    width: 100%;
+    border-collapse: collapse; /* 去除单元格之间的间隙 */
+    margin: 0 auto; /* 居中表格 */
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #333; /* 为表格添加整体边框 */
+    background-color: #ffffff; /* 设置背景颜色为白色 */
+}
+
+.ai-table th,
+.ai-table td {
+    border: 1px solid #ccc; /* 单元格边框 */
+    padding: 10px; /* 单元格内边距 */
+}
+
+.ai-table th {
+    background-color: #f7f7f7; /* 表头背景颜色 */
+    font-weight: bold;
+}
+
+.ai-table tbody tr:nth-child(even) {
+    background-color: #f7f7f7; /* 隔行变色，便于阅读 */
+}
+
+.table-section {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* 设置背景颜色为白色 */
+    border-radius: 10px;
+    max-width: 800px; /* 设置最大宽度 */
+}
+
+.table-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.research-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* 居中表格 */
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #333; /* 为表格添加整体边框 */
+    background-color: #ffffff;
+}
+
+.research-table th,
+.research-table td {
+    border: 1px solid #ccc; /* 单元格边框 */
+    padding: 10px;
+}
+
+.research-table th {
+    background-color: #e0e0e0; /* 表头背景颜色 */
+    font-weight: bold;
+}
+
+.title-section {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* 可选：设置背景颜色为白色 */
+    border-radius: 10px; /* 可选：添加圆角 */
+    text-align: center;
+    max-width: 800px; /* 设置最大宽度以控制标题区域大小 */
+}
+
+.main-title {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+}
+
+.custom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.left-column h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.left-column .bullet-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.left-column .bullet-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.top-image {
+    margin-bottom: 50px; /* Space between the images */
+    max-width:100%
+}
+
+.bottom-image {
+    margin-top: 20px;
+    max-width:200%
+}
+
+.simple-layout-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text-content .bullet-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.text-content .bullet-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.image-contenta {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-contenta img {
+    max-width: 50%;  /* 将图片的最大宽度设置为父容器的50% */
+    height: auto;  /* 确保图片比例不变 */
+    border-radius: 10px;  /* 可选：添加图片圆角 */
+    object-fit: contain;  /* 确保图片适应容器 */
+}
+
+/* 手机设备自适应样式 */
+@media (max-width: 767px) {
+    body {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .content-container {
+        flex-direction: column; /* 垂直堆叠 */
+        align-items: center;
+    }
+
+    .content-text {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .content-image img, 
+    .new-section img, 
+    .content-right img {
+        max-width: 90%; /* 放大图片 */
+        margin: 10px 0;
+    }
+
+    .toggle-button {
+        width: 100%; /* 在手机上按钮全宽 */
+        margin: 10px 0;
+    }
+}
+
+/* 平板和桌面设备样式 */
+@media (min-width: 768px) {
+    .content-container {
+        flex-direction: row; /* 保持横向布局 */
+    }
+
+    .content-text {
+        text-align: left;
+    }
+
+    .new-section img, 
+    .content-right img {
+        max-width: 40%; /* 限制图片大小 */
+    }
 }
