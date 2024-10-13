@@ -41,6 +41,7 @@ header {
     margin: 0;
     padding: 20px;
     background: #f9f9f9;
+    gap: 20px;
 }
 
 .content-text {
@@ -141,6 +142,7 @@ header {
     align-items: flex-start;
     justify-content: space-between;
     padding-top: 5px;
+    gap: 20px;
 }
 
 .content-left,
@@ -1359,6 +1361,7 @@ header {
     .content-container {
         flex-direction: column; /* 垂直堆叠 */
         align-items: center;
+        gap: 20px;
     }
 
     .content-text {
@@ -1384,6 +1387,7 @@ header {
 @media (min-width: 768px) {
     .content-container {
         flex-direction: row; /* 横向布局 */
+        gap: 20px;
     }
 
     .content-text {
