@@ -1349,7 +1349,11 @@ header {
 @media (max-width: 767px) {
     body {
         margin: 10px;
-        font-size: 18px;
+        font-size: 16px; /* 全局字体缩小 */
+    }
+
+    header h1 {
+        font-size: 24px; /* 标题缩小 */
     }
 
     .content-container {
@@ -1358,6 +1362,7 @@ header {
     }
 
     .content-text {
+        font-size: 14px; /* 文本缩小 */
         padding: 10px;
         text-align: center;
     }
@@ -1365,12 +1370,12 @@ header {
     .content-image img, 
     .new-section img, 
     .content-right img {
-        max-width: 90%; /* 放大图片 */
+        max-width: 100%; /* 放大图片 */
         margin: 10px 0;
     }
 
     .toggle-button {
-        width: 100%; /* 在手机上按钮全宽 */
+        width: 100%; /* 按钮全宽 */
         margin: 10px 0;
     }
 }
@@ -1378,7 +1383,7 @@ header {
 /* 平板和桌面设备样式 */
 @media (min-width: 768px) {
     .content-container {
-        flex-direction: row; /* 保持横向布局 */
+        flex-direction: row; /* 横向布局 */
     }
 
     .content-text {
