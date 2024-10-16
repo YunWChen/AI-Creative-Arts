@@ -102,7 +102,7 @@ header {
     text-align: center;
     margin: 0;
     padding: 20px;
-    background: #f0f0f0;
+    background: #ffffff;
 }
 
 .image-wrapper {
@@ -187,18 +187,19 @@ header {
 }
 
 .content-right1 img {
-    max-width: 100%;  
+    max-width: 80%;  
     height: auto;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid #333;
 }
 
 .new-section2 {
     text-align: center;
     margin: 0;
     padding: 20px;
-    background: #f0f0f0;
+    background: #ffffff;
 }
 
 .image-wrapper2 {
@@ -257,7 +258,7 @@ header {
 .additional-section {
     margin: 0;
     padding: 20px;
-    background: #c9c9c9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -280,7 +281,7 @@ header {
 .complex-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
 }
 
 .complex-section h2 {
@@ -338,7 +339,7 @@ header {
 .simple-section {
     margin: 0;
     padding: 20px;
-    background: #f0f0f0;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -438,7 +439,7 @@ header {
 .complex-bullet-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -496,7 +497,7 @@ header {
 .simple-bullet-section {
     margin: 0;
     padding: 20px;
-    background: #f0f0f0;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -516,7 +517,7 @@ header {
 .centered-title-section {
     margin: 0;
     padding: 40px 20px;
-    background: #f0f0f0;
+    background: #ffffff;
     text-align: center;  /* 居中对齐内容 */
 }
 
@@ -529,7 +530,7 @@ header {
 .two-bullet-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -553,7 +554,7 @@ header {
 .complex-section-with-image {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -609,7 +610,7 @@ header {
 .centered-title-only-section {
     margin: 0;
     padding: 40px 20px;
-    background: #f0f0f0;
+    background: #ffffff;
     text-align: center;  /* 使内容居中对齐 */
 }
 
@@ -623,7 +624,7 @@ header {
 .split-content-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -671,7 +672,7 @@ header {
 .image-left-text-right-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -765,7 +766,7 @@ header {
 .title-bullet-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -794,7 +795,7 @@ header {
 .double-title-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -814,7 +815,7 @@ header {
 .text-image-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -861,7 +862,7 @@ header {
 .title-image-table-section {
     margin: 0;
     padding: 20px;
-    background: #f9f9f9;
+    background: #ffffff;
     text-align: left;
 }
 
@@ -1031,7 +1032,7 @@ header {
     gap: 20px;
     margin: 0; /* 移除外边距以消除板块之间的间隙 */
     padding: 20px;
-    background-color: #f9f9f9; /* 可选：设置背景颜色 */
+    background-color: #ffffff; /* 可选：设置背景颜色 */
     border-radius: 10px; /* 可选：添加圆角 */
 }
 
@@ -1055,7 +1056,7 @@ header {
     gap: 20px;
     margin: 40px 0;
     padding: 20px;
-    background-color: #f9f9f9; /* 可选：设置背景颜色 */
+    background-color: #ffffff; /* 可选：设置背景颜色 */
     border-radius: 10px; /* 可选：添加圆角 */
 }
 
@@ -1092,7 +1093,7 @@ header {
 .text-and-images-section {
     margin: 40px 0;
     padding: 20px;
-    background-color: #f0f0f0; /* 可选：设置背景颜色 */
+    background-color: #ffffff; /* 可选：设置背景颜色 */
     border-radius: 10px; /* 可选：添加圆角 */
 }
 
@@ -1398,4 +1399,30 @@ header {
     .content-right img {
         max-width: 40%; /* 限制图片大小 */
     }
+}
+
+.centered-image-section-000 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;  /* 背景设为白色 */
+    padding: 40px 0;  /* 上下内边距，确保图片周围有空间 */
+}
+
+.centered-image-section-000 img {
+    max-width: 40%;  /* 图片占据父容器80%的宽度 */
+    height: auto;
+    border-radius: 10px;  /* 可选：添加圆角 */
+}
+
+
+.centered-image-section-aaa {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.centered-image-section-aaa img {
+    max-width: 45%;  /* 图片占据父容器80%的宽度 */
+    height: auto;
+    border-radius: 10px;  /* 可选：添加圆角 */
 }
