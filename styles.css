@@ -1427,3 +1427,10 @@ header {
     height: auto;
     border-radius: 10px;  /* 可选：添加圆角 */
 }
+
+.new-section-text-a {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-size: 40px;
+}
