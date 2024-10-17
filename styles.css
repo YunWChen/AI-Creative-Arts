@@ -82,9 +82,10 @@ header {
     background-color: black;
     color: #ffffff;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border-top: 2px solid black;
     font-size: 14px;
+    padding-left: 520px;
 }
 
 .footer a {
